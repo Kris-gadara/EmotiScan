@@ -25,7 +25,7 @@ Built by **[Kriskumar Gadara](https://github.com/Kris-gadara)**
 
 <img src="images/Screenshot 2026-02-23 221020.png" alt="EmotiScan Live Demo" width="900"/>
 
-*EmotiScan detecting faces and recognizing emotions in real time*
+_EmotiScan detecting faces and recognizing emotions in real time_
 
 </div>
 
@@ -33,16 +33,16 @@ Built by **[Kriskumar Gadara](https://github.com/Kris-gadara)**
 
 ## ✨ Features
 
-| Feature | Description |
-|---|---|
-| 🎥 **Live Camera Stream** | Real-time webcam emotion detection via browser (MJPEG stream) |
-| 🖼️ **Image Upload** | Upload any photo for face detection and emotion analysis |
-| 📱 **Cross-Device Access** | Access from phone, tablet, or any PC on the same network |
-| 🧠 **8 Emotion Classes** | Anger · Contempt · Disgust · Fear · Happiness · Neutral · Sadness · Surprise |
-| 📊 **Confidence Scores** | Per-emotion probability scores with Top-3 visual bars |
-| ⚡ **ONNX Inference** | Fast CPU-only inference — no GPU required |
-| 🎨 **Color-Coded Output** | Each emotion has a unique color for instant visual feedback |
-| 🌐 **Mobile-Friendly UI** | Responsive HTML5 interface with dark theme |
+| Feature                    | Description                                                                  |
+| -------------------------- | ---------------------------------------------------------------------------- |
+| 🎥 **Live Camera Stream**  | Real-time webcam emotion detection via browser (MJPEG stream)                |
+| 🖼️ **Image Upload**        | Upload any photo for face detection and emotion analysis                     |
+| 📱 **Cross-Device Access** | Access from phone, tablet, or any PC on the same network                     |
+| 🧠 **8 Emotion Classes**   | Anger · Contempt · Disgust · Fear · Happiness · Neutral · Sadness · Surprise |
+| 📊 **Confidence Scores**   | Per-emotion probability scores with Top-3 visual bars                        |
+| ⚡ **ONNX Inference**      | Fast CPU-only inference — no GPU required                                    |
+| 🎨 **Color-Coded Output**  | Each emotion has a unique color for instant visual feedback                  |
+| 🌐 **Mobile-Friendly UI**  | Responsive HTML5 interface with dark theme                                   |
 
 ---
 
@@ -128,6 +128,7 @@ python live_app.py
 ```
 
 Then open:
+
 - **Local:** http://127.0.0.1:5000
 - **Network:** http://\<your-ip\>:5000 _(access from phone/tablet)_
 
@@ -168,16 +169,16 @@ EmotiScan/
 
 <div align="center">
 
-| Emotion | Color | Example |
-|---------|-------|---------|
-| 😡 **Anger** | 🔴 Red | Furrowed brows, tight lips |
-| 😤 **Contempt** | 🟣 Purple | Asymmetric lip corner raise |
-| 🤢 **Disgust** | 🟢 Green | Wrinkled nose, raised upper lip |
-| 😨 **Fear** | 🟠 Orange | Wide eyes, open mouth |
-| 😊 **Happiness** | 💚 Bright Green | Smile, raised cheeks |
-| 😐 **Neutral** | ⚪ Gray | Relaxed face |
-| 😢 **Sadness** | 🔵 Blue | Drooping eyelids, frown |
-| 😲 **Surprise** | 🩵 Cyan | Raised eyebrows, open mouth |
+| Emotion          | Color           | Example                         |
+| ---------------- | --------------- | ------------------------------- |
+| 😡 **Anger**     | 🔴 Red          | Furrowed brows, tight lips      |
+| 😤 **Contempt**  | 🟣 Purple       | Asymmetric lip corner raise     |
+| 🤢 **Disgust**   | 🟢 Green        | Wrinkled nose, raised upper lip |
+| 😨 **Fear**      | 🟠 Orange       | Wide eyes, open mouth           |
+| 😊 **Happiness** | 💚 Bright Green | Smile, raised cheeks            |
+| 😐 **Neutral**   | ⚪ Gray         | Relaxed face                    |
+| 😢 **Sadness**   | 🔵 Blue         | Drooping eyelids, frown         |
+| 😲 **Surprise**  | 🩵 Cyan         | Raised eyebrows, open mouth     |
 
 </div>
 
@@ -185,14 +186,14 @@ EmotiScan/
 
 ## ⚙️ Configuration
 
-| Parameter | Default | Description |
-|-----------|---------|-------------|
-| `MODEL_NAME` | `enet_b0_8_best_vgaf` | ONNX model for emotion classification |
-| `scaleFactor` | `1.1` | Haar cascade scale factor |
-| `minNeighbors` | `5` | Minimum detections for a valid face |
-| `minSize` | `(50, 50)` | Minimum face size in pixels |
-| `JPEG Quality` | `80` | MJPEG stream compression quality |
-| `FPS Cap` | `~30` | Maximum streaming frame rate |
+| Parameter      | Default               | Description                           |
+| -------------- | --------------------- | ------------------------------------- |
+| `MODEL_NAME`   | `enet_b0_8_best_vgaf` | ONNX model for emotion classification |
+| `scaleFactor`  | `1.1`                 | Haar cascade scale factor             |
+| `minNeighbors` | `5`                   | Minimum detections for a valid face   |
+| `minSize`      | `(50, 50)`            | Minimum face size in pixels           |
+| `JPEG Quality` | `80`                  | MJPEG stream compression quality      |
+| `FPS Cap`      | `~30`                 | Maximum streaming frame rate          |
 
 ---
 
