@@ -1,0 +1,9 @@
+numpy
+onnx
+onnxruntime
+opencv-python-headless
+pillow
+flask
+gradio
+tf-keras
+mediapipe
