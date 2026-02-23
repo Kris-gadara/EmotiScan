@@ -21,12 +21,12 @@ env/
 Thumbs.db
 .DS_Store
 
-# Models (large binary files)
-EmotiEffLib/models/
-*.pt
-*.h5
-*.pb
-*.onnx
+# Nested git repos
+.git_backup/
 
-# EmotiEffLib dependency (submodule / local clone)
-EmotiEffLib/
+# Models (large binary files — ~400 MB, not suitable for GitHub)
+EmotiEffLib/models/affectnet_emotions/*.pt
+EmotiEffLib/models/affectnet_emotions/*.h5
+EmotiEffLib/models/affectnet_emotions/onnx/
+EmotiEffLib/models/engagement_classification/*.h5
+EmotiEffLib/models/pretrained_faces/
