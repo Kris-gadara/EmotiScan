@@ -33,10 +33,9 @@ def download_model(model_file: str, path_in_repo: str) -> str:
     fpath = os.path.join(cache_dir, model_file)
     if not os.path.isfile(fpath):
         url = (
-            "https://github.com/Kris-gadara/EmotiScan/blob/main/"
+            "https://github.com/sb-ai-lab/EmotiEffLib/raw/refs/heads/main/"
             + path_in_repo
             + model_file
-            + "?raw=true"
         )
         print("Downloading", model_file, "from", url)
         urllib.request.urlretrieve(url, fpath)
