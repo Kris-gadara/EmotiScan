@@ -25,25 +25,25 @@ Built by **[Kriskumar Gadara](https://github.com/Kris-gadara)**
 
 <img src="images/Screenshot 2026-02-23 221020.png" alt="EmotiScan Live Demo" width="900"/>
 
-*Real-time emotion detection with live camera feed*
+_Real-time emotion detection with live camera feed_
 
 <br/>
 
 <img src="images/Screenshot 2026-02-23 221526.png" alt="EmotiScan Detection Example 2" width="900"/>
 
-*Multiple emotion confidence bars and face bounding boxes*
+_Multiple emotion confidence bars and face bounding boxes_
 
 <br/>
 
 <img src="images/Screenshot 2026-02-23 221553.png" alt="EmotiScan Detection Example 3" width="900"/>
 
-*Accurate emotion classification across different expressions*
+_Accurate emotion classification across different expressions_
 
 <br/>
 
 <img src="images/Screenshot 2026-02-23 221613.png" alt="EmotiScan Detection Example 4" width="900"/>
 
-*Cross-device browser interface with real-time FPS counter*
+_Cross-device browser interface with real-time FPS counter_
 
 </div>
 
